@@ -9,7 +9,7 @@ int main()
 	tong = a+b;
 	hieu = a-b;
 	tich = a*b;
-	printf("%0.1f",thuong);
+	thuong = (double)a/b
 	printf ("a\tb\ta+b\ta-b\ta*b\ta/b\n%d\t%d\t%d\t%d\t%d\t%0.1f",a,b,tong,hieu,tich,thuong);
 	return 0;
 	}

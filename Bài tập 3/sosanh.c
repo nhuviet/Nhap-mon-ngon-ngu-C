@@ -6,14 +6,14 @@ int main(){
 	printf("Nhap so a: ");scanf("%f",&a);
 	printf("Nhap so b: ");scanf("%f",&b);	
 	//so sanh a va b
-	if (a>b){
-		printf("a>b");
+	if (a > b){
+		printf("a > b");
 	}
-	else if (a==b){
-		printf("a=b");
+	else if (a == b){
+		printf("a = b");
 	}
 	else{
-		printf("a<b");
+		printf("a < b");
 	}
 	return 0;
 }

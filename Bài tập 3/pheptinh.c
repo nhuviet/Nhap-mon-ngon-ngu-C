@@ -17,7 +17,6 @@ int main(){
 			break;
 		default: // truong hop con lai
 			printf("Vui long nhap phep tinh: ");
-			break;
 	}
 	return 0;
 }

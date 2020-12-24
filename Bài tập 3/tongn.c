@@ -4,7 +4,7 @@ int main(){
 	int c, n, sum = 0;
   
 	printf("Nhap so n:");
-  scanf("%d",&n);
+  	scanf("%d",&n);
   
 	printf("n = %d\n",n);
   

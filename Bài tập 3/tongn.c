@@ -8,7 +8,7 @@ int main(){
   
 	printf("n = %d\n",n);
   
-	for (c=1;c<=n;c++){
+	for (c=1; c <= n; c++){
 		sum += c;
 	}
   

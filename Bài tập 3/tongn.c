@@ -23,6 +23,9 @@ int main(){
 		case 3:
 			printf("S = 1 + 2 + %d = %d ",n,sum);
 			break;
+		case 4:
+			printf("S = 1 + 2 + 3 + %d = %d ",n,sum);
+			break;
 		default:
 			printf("S = 1 + 2 +...+ %d = %d ",n,sum);
 	}

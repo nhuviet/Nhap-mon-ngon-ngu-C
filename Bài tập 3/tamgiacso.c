@@ -11,20 +11,6 @@ int main(){
 			
 		}
 	}
-
-/*	switch (n){
-		case 1:
-			printf("S = %d ",sum);
-			break;
-		case 2:
-			printf("S = 1 + %d = %d ",n,sum);
-			break;
-		case 3:
-			printf("S = 1 + 2 + %d = %d ",n,sum);
-			break;
-		default:
-			printf("S = 1 + 2 +...+ %d = %d ",n,sum);
-	}*/
 	
 	return 0;
 }

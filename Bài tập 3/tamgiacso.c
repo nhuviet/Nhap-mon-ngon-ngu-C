@@ -1,15 +1,16 @@
 #include <stdio.h>
 
 int main(){
-	int i,j,n;
+	int i,row,n;
 	
 	printf("Nhap n=");scanf("%d",&n);//nhap n
 	
-	for (i=1 ;i<=n; i++){//vong lap in hang
-		printf("\n");
-		for (j=1; j<=i; j++){//vong lap in so
-			printf("%d ",j);
+	for (row=1 ;row<=n; row++){//vong lap in hang
+		
+		for (i=1; i<=row; i++){//vong lap in so
+			printf("%d ",i);
 		}
+		printf("\n");
 	}
 	return 0;
 }

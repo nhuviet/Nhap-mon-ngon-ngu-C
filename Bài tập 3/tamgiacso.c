@@ -1,16 +1,15 @@
 #include <stdio.h>
 
 int main(){
-	int c, n, sum=0;
+	int i,j,n;
 	
-	printf("n = ");scanf("%d",&n);
+	printf("Nhap n=");scanf("%d",&n);//nhap n
 	
-	for (c=1;c<=n;c++){
-		printf("%d ",c);
-		for (c = 1; c<=n; c++){
-			
+	for (i=1 ;i<=n; i++){//vong lap in cot
+		printf("\n");
+		for (j=1; j<=i; j++){//vong lap in so
+			printf("%d ",j);
 		}
 	}
-	
 	return 0;
 }

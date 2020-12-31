@@ -5,8 +5,8 @@ int main(){
 	
 	printf("Cac so le tu 1 den 20:\n ");
 	
-	for (i=1;i<=20;i++){
-		if (i%2 != 0){
+	for (i=1; i<=20; i++){
+		if (i%2 != 0){ //Kiem tra so le
 			switch (i){
 				case 5: //i=5 bo qua
 					break;

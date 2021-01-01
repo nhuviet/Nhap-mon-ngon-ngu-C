@@ -1,9 +1,11 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int main(){
     int n, i, sum_c=0, sum_l=0;
-
+    
+    printf("Chuong trinh tinh tong chan va le tu 1 den n\n");
     printf("Nhap n: ");scanf("%d",&n);
+	
     for (i=1;i<=n;i++){
     	if (i%2==0){ //so chan
     		sum_c+=i;

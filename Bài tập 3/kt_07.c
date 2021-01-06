@@ -9,11 +9,11 @@ int main(){
 	printf("Nhap canh b: ");scanf("%d",&b);
 	printf("Nhap canh c: ");scanf("%d",&c);
 	
-	if ((a+b)>c && (a+c)>b && (b+c)>a){
-		printf("Day la 3 canh cua hinh tam giac\n");
+	if (a==0 || b==0 || c==0){
+		printf("Day khong phai 3 canh cua hinh tam giac\n");
 	}
 	else{
-		printf("Day khong phai 3 canh cua hinh tam giac\n");
+		printf("Day la 3 canh cua hinh tam giac\n");
 	}
 	return 0;
 }

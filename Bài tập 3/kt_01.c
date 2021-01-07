@@ -9,22 +9,16 @@ int main(){
 	}
 	
 	printf("Bang 3\n");
-	a = 3;
-	b = 1;
-	printf("%d x %d = %d\n",a,b,a*b);
-	b = 2;
-	printf("%d x %d = %d\n",a,b,a*b);
-	b = 3;
-	printf("%d x %d = %d\n",a,b,a*b);
+	a=3;
+	for (b=1;b<=3;b++){
+		printf("%d x %d = %d\n",a,b,a*b);
+	}
 	
 	printf("Bang 4\n");
-	a = 4;
-	b = 1;
-	printf("%d x %d = %d\n",a,b,a*b);
-	b = 2;
-	printf("%d x %d = %d\n",a,b,a*b);
-	b = 3;
-	printf("%d x %d = %d\n",a,b,a*b);
+	a=4;
+	for (b=1;b<=3;b++){
+		printf("%d x %d = %d\n",a,b,a*b);
+	}
 	
 	return 0;
 }

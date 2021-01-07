@@ -6,6 +6,7 @@ int main(){
 	a=2;
 	for (b=1;b<=3;b++){
 		printf("%d x %d = %d\n",a,b,a*b);
+	}
 	
 	printf("Bang 3\n");
 	a = 3;

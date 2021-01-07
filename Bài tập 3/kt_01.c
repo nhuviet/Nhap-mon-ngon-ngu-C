@@ -3,13 +3,9 @@
 int main(){
 	int a,b;
 	printf("Bang 2\n");
-	a = 2;
-	b = 1;
-	printf("%d x %d = %d\n",a,b,a*b);
-	b = 2;
-	printf("%d x %d = %d\n",a,b,a*b);
-	b = 3;
-	printf("%d x %d = %d\n",a,b,a*b);
+	a=2;
+	for (b=1;b<=3;b++){
+		printf("%d x %d = %d\n",a,b,a*b);
 	
 	printf("Bang 3\n");
 	a = 3;

@@ -1,20 +1,11 @@
-int test03(){
+int main(){
 	int n,so_du,sum=0;
 	printf("Nhap so n (so nguyen <1000): "); scanf("%d",&n);
     
-	so_du = n%10; 
-	sum+= so_du;
-	n/= 10;
+	for(;n!=0;n=n/10){
+		sum += n%10;
+	}
 	
-	so_du = n%10; 
-	sum+= so_du;
-	n/= 10;
-	
-	so_du = n%10; 
-	sum+= so_du;
-	n/= 10;
-		
-	printf("%d\n",sum);
-	
+	printf("sum = %d\n",sum);
 	return 0;
 }

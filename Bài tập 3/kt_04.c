@@ -1,14 +1,15 @@
-#include<stdio.h>
+int test03(){
+	int n,i,sum=0;
 
-int main(){
-    int n,i,sum=0;
-
-    printf("Nhap so n: "); scanf("%d",&n);
-   
-    for(;n!=0;n=n/10){
-        i = n % 10; // i = phan du chia 10
-        sum += i;
-    }    
-    printf("%d",sum);
-    return 0;
+    printf("Nhap so n(2 chu so): "); scanf("%d",&n);
+    
+	i = n%10; 
+	sum+= i;
+	n/= 10;
+	
+	i = n%10;
+	sum+= i;
+	n/= 10;
+		
+	printf("%d\n",sum);
 }

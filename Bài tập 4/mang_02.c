@@ -18,7 +18,7 @@ int main(){
 	
 	printf("Cac so le trong mang: ");
 	for (c=0;c<n;c++){
-		if(a[c]%2!=0){
+		if(a[c]%2==0){
 			printf(" %d ",a[c]);
 		}
 	}

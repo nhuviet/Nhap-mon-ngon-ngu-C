@@ -25,6 +25,7 @@ void main(){
 	for (c=0; c<n; c++){
 		if (a[c]==m){
 			check+=1;
+			break;
 		}	
 	}
 	

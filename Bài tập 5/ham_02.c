@@ -1,6 +1,6 @@
 //Khoi khai bao
 #include<stdio.h>
-kiem_tra_am_duong(int n);
+int kiem_tra_am_duong(int n);
  //khoi ham main
 int main(){
   int n;
@@ -16,6 +16,6 @@ int main(){
 }
 
 // khoi dinh nghia ham
-kiem_tra_am_duong(int n){
+int kiem_tra_am_duong(int n){
 	return n;
 }
